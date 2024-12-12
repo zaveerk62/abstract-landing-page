@@ -3,11 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  overflow: hidden;
-}
-
-
 @layer base {
   .nav-item {
     @apply text-sm font-medium text-darkBlue hover:text-blue/60 transition-all ease-in-out duration-300;
