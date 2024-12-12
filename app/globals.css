@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  overflow: hidden;
+}
+
 
 @layer base {
   .nav-item {
